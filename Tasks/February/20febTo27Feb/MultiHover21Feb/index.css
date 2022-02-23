@@ -1,0 +1,19 @@
+.container{
+   display: flex;
+}
+.First{
+    display: none;
+    background-color: rgb(130, 128, 240);
+    padding: 33px;
+}
+.second{
+    display: none;
+    background-color: rgb(128, 231, 240);
+    padding: 33px;
+}
+.container:hover>div{
+    display: initial;
+}
+.First:hover>.second{
+    display: initial;
+}
