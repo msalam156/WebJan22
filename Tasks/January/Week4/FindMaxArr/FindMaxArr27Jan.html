@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <body>
+            <script>
+                //enter the limit of how many numbers are you camparing
+                var limit1=prompt('enter the limit');
+                //convert limt into the integer
+                var limit=parseInt(limit1);
+                //initializing array to store number
+                var arr=[]
+                for(i=1;i<=limit;i++){
+                   var num= prompt('enter the numbers');
+                   var pars=parseInt(num);
+                   arr.push(pars)
+                }
+                //show numbers in array
+                console.log(arr)
+               // assining max as a first number
+                max=arr[0];
+                // comparing each number to the max
+                for(i=1;i<=arr.length;i++){
+                    if(max<arr[i]){
+                        max=arr[i];
+                    }
+                }
+                // print the maximum number in alert and console also
+                alert('maximum number is :- '+max)
+                console.log('maximum number is :- '+max)
+            </script>
+        </body>
+    </head>
+</html>

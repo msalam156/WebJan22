@@ -1,0 +1,126 @@
+body {
+    margin: 0px 0px 0px 0px;
+}
+#navList {
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    float: left;
+}
+#navSearch {
+    height: 5vh;
+    background-color: rgb(32, 31, 31);
+    color: white;
+    width: 64vh;
+    margin: 2vh 0vh 0vh 17vh;
+    border: none;
+}
+#navSearchLogo {
+    height: 25px;
+    width: 27px; 
+}
+::placeholder {
+    color: rgb(238, 236, 236);
+    opacity: 1; 
+  }
+ul li button {
+    height: 5vh;
+    width: 9vh;
+    background-color: rgb(68, 68, 68);
+    border: none;
+    margin-top: 2vh;
+}
+nav {
+   background-color: #000000;
+   display:flex;
+}
+#hamburger {
+    height: 3vh;
+    margin-top: 3vh;
+}
+#youtubeLog {
+    height:9.5vh
+}
+#navMic {
+    height: 5vh;
+    width: 5vh;
+    margin: 2vh;
+}
+#navdo {
+    height: 5vh;
+    width: 5vh;
+    margin-top: 2vh;
+}
+#navGrid {
+    height: 5vh;
+    width: 5vh;
+    margin:2vh 0vh 0vh 2vh
+}
+#navBell {
+    height: 5vh;
+    width: 5vh;
+    margin:2vh 0vh 0vh 2vh
+}
+#navPic {
+    height: 29px;
+    width: 28px;
+    margin:2vh 0vh 0vh 2vh
+}
+.info{
+    display: flex;
+    background-color: #181818;
+    justify-content: space-evenly;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    border: 2px solid #181818;
+    border-radius: 10vh;
+    background-color: #373737;
+    height: 4vh;
+    width: 18vh;
+    text-align: center;
+    padding-top: 1vh;
+    margin: 2vh;
+}
+section {
+   background-color: #181818;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   color: white; 
+}
+.vdo {
+    height: 30vh;
+    width: 46vh;
+}
+.vdoItems {
+    margin-left: 1vh;
+}
+.channelLogo {
+    height: 49px;
+    width: 44px;
+    margin: 10px 4px -24px 4px;
+    border-radius: 50%;
+}
+.vdoName {
+   font-size: large;
+}
+.vdodesc {
+    color: #a3a3a3;
+    margin: 4px 15px 6px 59px;
+    font-size: 14px;
+    font-family: unset;
+}
+.vdoAnc {
+    text-decoration: none;
+    color:#a3a3a3;
+}
+footer {
+    background-color: #a3a3a3;
+    color: white;
+}
+.btn:hover{
+    background-color: #332626;
+}
