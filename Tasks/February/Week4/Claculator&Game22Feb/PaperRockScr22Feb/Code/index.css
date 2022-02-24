@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    background-image: url('./../Images/background.jpg');
+}
+table{
+    margin-top: 5vh;
+}
+.first-row > td  {
+    color: rgb(121, 121, 121);
+    padding: 1vh 10vh 2vh;
+    font-size: 6vh;
+}
+ tr ~ tr > td{
+    padding: 1vh 14vh 2vh;
+    font-size: 6vh;
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.logo1 > a > span{
+    padding: 1vh 3vh 2vh;
+    border: 2px solid #006879;
+    background-color: #006879;
+    border-radius: 12vh;
+    font-size: 7vh;   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.heads{
+    text-align: center;
+    font-size: 5vh;
+}
+.logo{
+    text-align: center;
+    padding: 2vh;
+}
+.logo span{
+    font-size: 5vh;
+    padding-left: 5vh;
+}
+.logo + div{
+    text-align: center;
+    font-size: 4vh;
+    padding-top: 3vh;
+}
+.logo ~ div > span{
+    color: red;
+}
+.logo ~ div {
+    font-size: 3vh;
+    padding-top: 6vh;
+}
+.right > div > a{
+    padding: 2vh;
+    font-size: 3vh;
+    margin-top: 2vh;
+}
+.logo1 > a > span:hover {
+    border: 2px solid #0292a8;
+    background-color: #0292a8;
+}
