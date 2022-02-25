@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    background-color: #000000;
+    color: grey;
+}
+.container{
+    text-align: center;
+}
+input{
+    padding: 1vh 18vh 1vh 2vh;
+    margin: 4vh 2vh 0vh 4vh;
+    border: 2px solid black;
+    border-radius: 2vh;
+    font-weight: bold;
+}
+span{
+    position: relative;
+    top: 3vh;
+    left: -12vh;
+} 
+#login{
+    width: 36vh;
+    height: 26vh;
+    position: relative;
+    left: 1vh;
+    margin-top: 20vh;
+}
+.btn{
+    background-color: rgb(50, 47, 151);
+    color: wheat;
+    padding: 2vh 5vh 2vh 5vh;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(94, 91, 190);
+    color: wheat;
+    padding: 2vh 5vh 2vh 5vh;
+    
+}
+

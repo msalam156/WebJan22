@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    background-color: #000000;
+    color: grey;
+}
+.img{
+    display: inline-block;
+}
+.rt{
+    width: 60%;
+    float: right;
+    margin: 6vh 1vh 0vh 0vh;
+  
+}
+img{
+    width: 80vh;
+    height: 100%;
+}
+.details{
+    display: flex;
+    margin-top: 9vh;
+}
+input{
+    padding: 1vh 18vh 1vh 2vh;
+    margin: 4vh 2vh 0vh 4vh;
+    border: 2px solid black;
+    border-radius: 2vh;
+    font-weight: bold;
+}
+label{
+    padding: 0vh 5vh 0vh;
+    position: relative;
+    top: 4vh;
+} 
+.head a{
+    cursor: pointer;
+    border: 2px solid rgb(50, 47, 151);
+    padding: 1vh;
+    border-radius: 5vh;
+    background-color: rgb(50, 47, 151);
+    text-decoration: none;
+    color: white;
+}
+#btn{
+    background-color: rgb(50, 47, 151);
+    color: wheat;
+    padding: 2vh 5vh 2vh 5vh;
+}
+.head a:hover{
+    cursor: pointer;
+    border: 2px solid rgb(94, 91, 190);
+    background-color: rgb(94, 91, 190);
+}
+#btn:hover{
+    background-color: rgb(94, 91, 190);
+    color: wheat;
+    padding: 1vh 5vh 1vh 5vh;
+}
+.fa {
+    padding: 10px;
+    margin-left:25px ;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    left: 90vh;
+    top:-54px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #55ACEE;
+    color: white;
+    border: 2px solid #55ACEE;
+    border-radius: 5vh;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border: 2px solid #55ACEE;
+    border-radius: 5vh;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+    border: 2px solid #dd4b39;
+    border-radius: 5vh;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border: 2px solid #007bb5;
+    border-radius: 5vh;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+    border: 2px solid #bb0000;
+    border-radius: 5vh;
+  }
