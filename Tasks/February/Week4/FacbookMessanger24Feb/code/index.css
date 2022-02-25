@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    background-image: url('./../images/bgn.jpg');
+    background-size: cover;
+    z-index: 0.1;
+    font-family: 'Baloo 2', cursive;
+}
+.border{
+    display: inline-block;
+    margin-top:10% ;
+    width: 35vh;
+    height: 80vh;
+}
+.title{
+    color: rgb(251, 251, 251);
+    float: left;
+    margin-left: 1vh;
+    margin-top: 1vh;
+    font-weight: bold;
+}
+.flt-ryt{
+    float: right;
+    margin-right: 2vh;
+    margin-top: 1px;
+}
+#space{
+    background-color: rgb(246, 246, 246);
+    height: 1vh;
+    width: 14vh;
+    margin: 9px 0px 0px 36px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.display{
+    background-color: rgb(1, 6, 51);
+    margin: 0px;
+    height: 21vh;
+    border-radius: 4vh;
+}
+.head{
+    margin: 3vh 2vh 0vh 0vh;
+    padding-bottom: 5vh;
+}
+.sms{
+    margin-top: 2vh;
+    height: 45vh;
+    background-color: #FFF0F7;
+    position: relative;
+    border-radius: 4vh;
+    top: -10vh;
+}
+.right{
+    /* background-color: rgb(165, 162, 162); */
+    margin: 1vh 26vh 0vh 0vh;
+    font-size: 1.5vh;
+    float:right
+    
+}
+.right2{
+    background-color: rgb(0, 0, 0);
+    border-radius: 3vh;
+    margin: 0vh 2vh 0vh 0vh;
+    padding: 1vh;
+    width: 26vh;
+    float: right;
+}
+.right3{
+    background-color: rgb(0, 0, 0);
+    border-radius: 3vh;
+    margin: 2vh 2vh 1vh 0vh;
+    width: 26vh;
+    padding: 1vh;
+    float: right;
+    
+}
+.left{
+    background-color: #5564b8;
+    width: 26vh;
+    border-radius: 3vh;
+    margin: 2vh 1vh 1vh 1vh;
+    float: left;
+    padding: vh;
+
+}
+.tex{
+    width: 34vh;
+    border-radius: 11vh;
+    margin: 21vh 1vh 0vh 0vh;
+    color: aliceblue;
+    /* padding: 1vh 0vh 1vh 0vh; */
+    /* border: 1px solid gray; */
+    background-color: rgb(214, 210, 210);
+}
+input{
+    width: 29vh;
+    border-radius: 3vh;
+   
+    background-color: rgb(214, 210, 210);
+    border: none;
+    /* margin: 4vh 1vh 7vh 1vh; */
+    padding: 1vh;
+    font-family: 'Baloo 2', cursive;
+}
+ input + span {
+    background-color: rgb(38, 48, 194);
+    border-radius: 5vh;
+    padding:1px 6px 3px 7px;
+}
+.emoji{
+    position: relative;
+    top: -17vh;
+    background-color: rgb(1, 6, 51);
+    padding: 4vh 1vh 4vh 1vh;
+    border-radius: 4vh;
+}
+input + span:hover {
+    background-color: rgb(238, 30, 30);
+    border-radius: 5vh;
+    padding:1px 6px 3px 7px;
+}
