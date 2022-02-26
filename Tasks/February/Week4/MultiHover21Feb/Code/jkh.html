@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container {
+            display: flex;
+        }
+    
+        .First {
+            display: none;
+            background-color: rgb(130, 128, 240);
+            padding: 33px;
+        }
+    
+        .second {
+            display: none;
+            background-color: rgb(128, 231, 240);
+            padding: 33px;
+        }
+        .First:hover>.second {
+            display: initial;
+        }
+    
+        .container:hover>div {
+            display: initial;
+        }
+    
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        hhdi
+        <div class="First">I am first
+            <div>dklhfjh</div>
+            <div class="second">
+                I am second
+            </div>
+        </div>
+        
+        </div>
+</body>
+</html>
