@@ -1,0 +1,66 @@
+body{
+    background-image: linear-gradient(rgb(0, 225, 255), rgb(255, 255, 255), rgb(211, 94, 48));
+}
+.container{
+    text-align: center;
+    margin-top: 18vh;
+
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.block{
+    display: block;
+}
+#red{
+    background-color: red;
+    height: 10vh;
+    width: 10vh;
+    padding: 10vh;
+}
+#yellow{
+    background-color: rgb(255, 238, 2);
+    padding: 6.76vh;
+    width: 21vh;
+}
+#green{
+    background-color: rgb(59, 168, 15);
+    padding: 5.5vh;
+}
+#pink{
+    background-color: rgb(255, 0, 200);
+    height: 17.5vh;
+    width: 12vh;
+    padding-top: 12.5vh;
+}
+#brown{
+    background-color: rgb(248, 175, 56);
+    height: 15vh;
+    /* width: 3vh; */
+    padding-right: 29.4vh;
+    /* padding-left: 0vh;*/
+}
+#bule{
+    background-color: rgb(0, 89, 255);
+    padding: 4vh;
+    width: 7vh;
+}
+#lightBrown{
+    background-color: rgb(149, 136, 128);
+    height: 1vh;
+    width: 35.5vh;
+    padding: 7vh;
+}
+#voilet{
+    background-color: rgb(127, 76, 207);
+    height: 30vh;
+    width: 10vh;
+    padding-right: 17vh;
+}
+.name{
+    background-image: linear-gradient(black,rgb(174, 174, 219),rgb(98, 4, 4));
+    margin-top: 15vh;
+    padding: 3vh;
+    border-radius: 6vh;
+}
