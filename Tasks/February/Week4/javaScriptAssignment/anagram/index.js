@@ -20,8 +20,8 @@ function anagram(tosort1,tosort2) {
 }
 anagram(input1,input2);
 if(counter == 0){
-    document.write('this is NOt anagram');
+    document.write(`${input1} and ${input2} is not Anagram`);
 }
 else {
-    document.write('this is anagram');
+    document.write(`${input1} and ${input2} is Anagram`);
 }
