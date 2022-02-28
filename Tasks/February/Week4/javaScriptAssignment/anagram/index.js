@@ -1,25 +1,27 @@
 
-var input = "asdf, fdsa, bbc, cbb, dell, ledl";
-var words = input.split(", ");
-
-for (var i = 0; i < words.length; i++) {
-  var word = words[i];
-  var alphabetical = word.split("").sort().join("");
-  for (var j = 0; j < words.length; j++) {
-    if (i === j) {
-      continue;
+let input1 = prompt('enter the first String');
+let input2 = prompt('enter the Second String');
+var counter = 0;
+function anagram(tosort1,tosort2) {
+  let  split1 = tosort1.split("");
+  let split2 = tosort2.split("");
+  let str1 = split1.sort();
+  let str2 = split2.sort();
+  let len1 = str1.length;
+  let len2 = str2.length;  
+  for(let i = 0; i < len1; i++){
+    if(len1 == len2) {
+        if(str1[i] == str2[i]){
+            counter++;
+        }
     }
-    var other = words[j];
-    if (alphabetical === other.split("").sort().join("")) {
-      document.write(word + " - " + other + " (" + i + ", " + j + ")");
-
-    }
+    break;
   }
 }
-
-
-
-
-
-
-
+anagram(input1,input2);
+if(counter == 0){
+    document.write('this is NOt anagram');
+}
+else {
+    document.write('this is anagram');
+}
