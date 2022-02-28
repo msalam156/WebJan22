@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    margin: 0;
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(2,177,232,1) 4%, rgba(9,9,121,0.025647759103641476) 94%); */
+    /* background-image: linear-gradient(to right,red,blue); */
+}
+button {
+    
+    background: linear-gradient(rgb(0, 0, 47),rgb(255, 255, 255),rgb(0, 0, 47));
+    width: 90%;
+    border-radius: 2vh;
+    font-size: 3vh;
+    font-weight: bolder;
+    padding: 2vh
+}
+.scrip{
+    background-color: aqua;
+}
+span {
+    position: absolute;
+    border-radius: 2vh;
+    padding: 6vh;
+    bottom: 10vh;
+    background: linear-gradient(rgb(0, 0, 47),rgb(255, 255, 255),rgb(0, 0, 47));
+    animation: move 20s infinite;
+
+}
+@keyframes move {
+    0% {left: 130px; }
+    66% {left: 800px; }
+    100% {left: 130px; }
+    
+}
+button:hover {
+    background: linear-gradient(rgb(1, 1, 175),rgb(255, 255, 255),rgb(1, 1, 175));
+    position: relative;
+    top: 1px
+    
+}
+span:hover {
+    background: linear-gradient(rgb(129, 129, 177),rgb(255, 255, 255),rgb(132, 132, 175));
+}
