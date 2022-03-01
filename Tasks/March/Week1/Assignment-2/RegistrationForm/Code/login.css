@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    background-color: #000000;
+    color: grey;
+    background-image: url('./../images/R.jfif');
+    background-size: cover;
+}
+.container{
+    text-align: center;
+    box-shadow: 10px 10px 8px 10px #888888;
+    width: 121vh;
+    position: absolute;
+    left: 21%;
+    top: 24%;
+    padding: 2%;
+}
+input{
+    padding: 1vh 18vh 1vh 2vh;
+    margin: 4vh 2vh 0vh 4vh;
+    border: 2px solid black;
+    border-radius: 2vh;
+    font-weight: bold;
+}
+span{
+    position: relative;
+    top: 3vh;
+    left: -12vh;
+} 
+#login{
+    width: 36vh;
+    height: 26vh;
+    position: relative;
+    left: 1vh;
+    margin-top: 20vh;
+}
+.btn{
+    background-color: rgb(50, 47, 151);
+    color: rgb(255, 255, 255);
+    padding: 2vh 5vh 2vh 5vh;
+    text-decoration: none;
+    position: absolute;
+    top: 2%;
+    right: 4%;
+    border-radius: 3vh;
+    background: linear-gradient(black, #93b3d9, black);
+}
+.btn:hover{
+    background: linear-gradient(rgb(41, 39, 39), #93b3d9, rgb(87, 83, 83));
+    color: rgb(12, 12, 12);
+    padding: 2vh 5vh 2vh 5vh;
+    
+}
+#sbtn{
+    position: relative;
+    top: 2%;
+   left: 1px;
+   width: 35%;
+}
