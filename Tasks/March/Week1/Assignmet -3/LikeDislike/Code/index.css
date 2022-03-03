@@ -1,0 +1,104 @@
+#icon {
+    height: 22vh;
+    width: 33vh;
+}
+
+body {
+    background-color: #09165e9c;
+}
+.item1 {
+    border: 10px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -20vh;
+    left: 4vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6vh;
+}
+.item2 {
+    border: 10px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 35vh;
+    left: 29vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6vh;
+}
+.item2 {
+    border: 10px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 27vh;
+    left: 29vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6vh;
+}
+.item3 {
+    border: 10px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 61vh;
+    right: 27vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6vh;
+}
+.item4 {
+    border: 10px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -15vh;
+    right: 27vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6vh;
+}
+.item5 {
+    border: 10px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -24vh;
+    right: 8vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6vh;
+}
+.item6 {
+    border: 10px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 51vh;
+    right: 8vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6vh
+}
+.item12 {
+    border: 10px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -49vh;
+    left: 27vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6vh;
+}
+.item11 {
+    border: 10px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 55vh;
+    left: 4vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6vh;
+}
+
+img {
+    background-color: bisque;
+    border-radius: 6vh;
+    width: 19vw;
+    height: 53vh;
+}
+.bottom {
+    background-color: white;
+    margin-bottom: -1px;
+}
+button{
+    border-radius: 2vh;
+    padding: 1vh;
+    margin-left: 1vh;
+    background-color: transparent;
+}
+img:hover{
+    /* border: 2px dotted black; */
+    background-color: #09165e9c;
+}
+button:hover{
+    background: linear-gradient(to right, #09165e9c, bisque);
+}
