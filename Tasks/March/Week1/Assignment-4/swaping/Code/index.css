@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(to right , rgba(93, 92, 92, 0),rgba(255, 0, 0, 0)),url('./../Image/casual-life-3d-card-with-sunny-landscape.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Baloo 2', cursive;
+    font-family: 'PT Serif', serif;
+}
+.container{
+    box-shadow: 5px 7px 8px #233e37;
+    position: absolute;
+    top: 27vh;
+    left: 41vw;
+    background: linear-gradient(45deg, #1b302b, transparent);
+    border-radius: 2vh;
+    padding: 1%;
+}
+#input1{
+    display: inline;
+}
+.red{
+    border: 2px solid red;   
+}
+.blue{
+   background-color: rgb(3, 15, 26);
+}
+button{
+    margin-top: 8px;
+    border-radius: 1vh;
+    font-weight: bold;
+    padding: 4px;
+    width: 13vw;
+    background: linear-gradient(#337780,#d99b5a,#337780);
+}
+input{
+    font-weight: bold;
+    margin-top: 8px;
+    outline: 2px outset darkgray;
+    outline-offset: -1px;
+    border: none;
+    border-radius: 1vh;
+    padding: 4px;
+    background: #efb37278;
+}
+span {
+    position: absolute;
+    border-radius: 2vh;
+    padding: 3vh;
+    bottom: 10vh;
+    background: linear-gradient(rgb(224 164 97),rgb(255, 255, 255),rgb(216 155 89));
+    animation: move 20s infinite;
+
+}
+@keyframes move {
+    0% {left: 130px; }
+    66% {left: 800px; }
+    100% {left: 130px; }
+    
+}
+button:hover{
+    background: linear-gradient(#060707,#5c4730,#040505);
+    color: white;
+}

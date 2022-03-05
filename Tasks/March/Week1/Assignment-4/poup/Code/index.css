@@ -1,0 +1,88 @@
+.light{
+    background-color: rgb(204, 185, 143);
+}
+body{
+    display:block;
+    background-image: url('./../Image/bcn.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    font-family: Tahoma;
+}
+.dark{
+    background-color: rgb(45, 3, 141);
+}
+.none{
+    display: none;
+}
+#pink{
+    background-color: pink;
+}
+.show{
+    display: block
+}
+.popup {
+    position: fixed;
+    top: 40%;
+    left: 39%;
+    height: 20vh;
+    width: 23vw;
+    background-color: #EBE8D7;
+    border: 2px solid  #004FE1;
+    border-radius: 5px;
+    text-align: center;
+}
+.close{
+    float: right;
+    margin-top: 2px;
+    margin-right: 2px;
+    background-color: #f1370af0;
+    color: white;
+    border: none;
+}
+
+.head{
+    background-color: #004FE1;
+    border-radius:1px 1px 1px 1px ;
+    height: 4vh;
+    color: white;
+}
+
+.d-none {
+    display: none;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0vh 1vw 0vh 1vw;
+}
+img{
+    height: 4vh;
+    width: 2vw;
+
+}
+.botom{
+    background-color: #D3CFC5;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+.btn{
+    padding: 1vh;
+    margin: 4px;
+    width: 5vw;
+    outline: 3px outset #dfdfdf;
+    outline-offset: -3px;
+}
+#last{
+    padding: 0vh 2vw 0vh 2vw;
+}
+.close:hover{
+    background-color: #a7432af0;
+    color: rgb(204, 195, 195);
+}
+.btn:hover{
+    background-color: rgb(195, 192, 192);
+    box-shadow: 2px 2px 3px gray;
+}
