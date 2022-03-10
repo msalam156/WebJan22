@@ -1,0 +1,63 @@
+body {
+    background-image: url('./../Image/bgrndClock.png');
+    background-size: cover;
+    font-family: 'Baloo 2', cursive;
+    font-family: 'PT Serif', serif;
+    font-family: 'Smooch Sans', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    
+}
+.timmer {
+    border: 2px solid black;
+    background: linear-gradient(to right, #bb9999,blue);
+    border-radius: 3vh;
+    padding: 2vh;
+    font-size: 5vh;
+    font-weight: bolder;
+}
+.min {
+    border: 2px solid black;
+    background: linear-gradient(45deg, #d9b6b6, #6262cf);
+    border-radius: 3vh;
+    padding: 1vh;
+    padding: 2vh;
+    font-size: 15vh;
+    margin-left: 1vw;
+}
+.sec {
+    border: 2px solid black;
+    background: linear-gradient(45deg, #d9b6b6, #6262cf);
+    padding: 1vh;
+    padding: 2vh;
+    border-radius: 3vh;
+    font-size: 15vh;
+    margin-left: 1vw;
+}
+.container > button {
+    background: linear-gradient(45deg, #c680cb,#9297bd);
+    position: absolute;
+    top: 55vh;
+    font-size: 4vh;
+    font-weight: bolder;
+    border-radius: 4vh;
+}
+.clock {
+    display: flex;
+    position: relative;
+    top: 2vh;
+    left: 4vh;
+    border-radius: 2vh;
+    font-size: 6vh;
+    color: white;
+    justify-content: space-between;
+    width: 23vw;
+    background: linear-gradient(45deg, #d9b6b6, #6262cf);
+    padding: 1vh;
+    box-shadow: 2px2px 3px gray;
+    box-shadow: 1px 1px 6px 11px #766a6a;
+}
