@@ -8,7 +8,7 @@ const handle_trend =        function(res) {
     for (var i = 0; i < res.data.length; i += 1){
         const single = user_arr[i];
         const new_img = document.createElement('img');
-        new_img.src = single.images.original.url;
+        new_img.src = single.images.fixed_width.url;
         container_img.appendChild(new_img)
     }
 }
